@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/myimage.JPG"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' />
+    <title>Quadri's Portfolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Quadri</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <!-- go to boxicons copy menu bar icons -->
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi 
+                        <br/> I'm <span class="home__title-color">Quadri</span><br/>
+                        Web Designer 
+                    </h1>
+                    <a href="#contact" class="button">Contact Me</a> &nbsp;&nbsp;&nbsp;
+                    <div class="popup button"  onclick="myFunction()"> Download CV
+                        <span class="popuptext" id="myPopup"> 
+                            <p style="color: #ffffff;
+                                      font-size: small;
+                                      cursor: none;
+                                      -webkit-transition: all 0.3s ease;
+                                      transition: all 0.3s ease;"
+                                      >
+                                      Hi! click on any format to download my cv
+                                    </p>
+                            <a href="https://docs.google.com/document/d/1GVtHOJQHnLB-Wl_CrvMF0lwfgPoq_DAw9HMsT0XunLA/edit?usp=sharing"  target="_">
+                                <button style="
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    padding: 5px 3px;
+                                    color: #3e99f4;
+                                    border-radius: 4px;
+                                    -webkit-transition: all 0.3s ease;
+                                    transition: all 0.3s ease;
+                                    display: inline-block;
+                                    margin-top: 0.5rem;
+                                    white-space: nowrap;
+                                    margin-right: 1rem;
+                                    border: none;
+                                    cursor: pointer;
+                                    ">  MSWord Format
+                                </button>
+                            </a>
+                            <a href= "#">
+                                <button style="
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    padding: 5px 3px;
+                                    color: #ec1839;
+                                    border-radius: 4px;
+                                    -webkit-transition: all 0.2s ease;
+                                    transition: all 0.2s ease;
+                                    display: inline-block;
+                                    white-space: normal;
+                                    border: none;
+                                    cursor: pointer;
+                                    ">PDF not available
+                                </button>
+                            </a>
+                        </span>
+                        </div>
+                    
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/adeshayo-quadri-892083254/" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://wa.me/+2347037430507" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://github.com/quadriadeshayo1" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/myimage.JPG" alt="Quadri Image"/>
+                </div>
+            </section>
+
+        <!-- ABOUT -->
+            <section class="about-section" id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/myimage.JPG" alt="about Image"/>
+                    </div>
+                <div>
+                    <h2 class="about__subtitle">
+                        I'm Quadri 
+                    </h2>
+                    <p class="about__text">
+                        I am a Web Developer, and I'm very passionate and dedicated to my work. With 2 years experience 
+                        as a professional Web Developer, I have acquired the skills and knowledge necessary to make your
+                        project a success.
+                    </p>
+                </div>
+            </div>
+            </section>
+        <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">
+                            Professional Skills
+                        </h2>
+                        <p class="skills__text">
+                            I have experience in building website with Html5, Cascading style sheets,
+                            and javascript. I also have some knowledge about graphic design to develop a 
+                            cool user interface. 
+                        </p>
+                        <!-- start html skill -->
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-html5 skills__icon'></i>                                
+                                    <span class="skills__name">HTML5</span>
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">
+                                        85%
+                                    </span>
+                                </div>
+                                <div class="skills__bar skills__html"></div>
+                            </div>
+                        <!-- end html skill -->
+                        <!-- start css skill -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>                                
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">
+                                    65%
+                                </span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                        </div>
+                    <!-- end css skill -->
+                    <!-- start js skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>                                
+                            <span class="skills__name">Javascript</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">
+                                50%
+                            </span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                <!-- end js skill -->
+                <!-- start graphic design skill -->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>                                
+                        <span class="skills__name">Graphic Design</span>
+                    </div>
+                    <div>
+                        <span class="skills__percentage">
+                            55%
+                        </span>
+                    </div>
+                    <div class="skills__bar skills__gd"></div>
+                </div>
+                <!-- end graphic design skill -->
+                </div>
+                    <div>
+                        <img src="assets/img/work3.jpg" alt="work3 image" class="skills__img"/>
+                    </div>
+                </div>
+            </section>
+        <!-- WORK -->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://gbuilder.netlify.app/" target="_blank"><img src="assets/img/builder.PNG" alt="work 1"/></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://thegolucars.netlify.app/" target="_blank"><img src="assets/img/golu.PNG" alt="work 2"/></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://infotechcompany.netlify.app/" target="_blank"><img src="assets/img/infotech.PNG" alt="work 3"/></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://becwonderworld.netlify.app/" target="_blank"><img src="assets/img/bec.PNG" alt="work 4"/></a>
+                    </div>
+                </div>
+            </section>
+        <!-- CONTACT -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <!-- redirect user to your website after submitting to Google Sheets start -->
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+                    <iframe
+                        name="hidden_iframe"
+                        id="hidden_iframe"
+                        style="display:none"
+                        onload="if(submitted){window.location='#'}"
+                    ></iframe>
+                    <!-- redirect user to your website after submitting to Google Sheets end -->
+                    <form 
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9WEgGnDturzXBSY29wMXsiyeVPIOtHT6X8OKe91rF6kwT1A/formResponse"
+                    class="contact__form"
+                    method="POST"
+                    target="hidden_iframe"
+                    onsubmit="submitted=true"
+                    >
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            class="contact__input"
+                            name="entry.1778820315"
+                         />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            class="contact__input"
+                            name="entry.433943293" 
+                        />
+                        <textarea
+                            id=""
+                            placeholder="Message"
+                            cols="0"
+                            rows="10"
+                            class="contact__input"
+                            name="entry.1873661246"
+                        ></textarea>
+                        <button type="submit" class="contact__button button">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__title">Quadri</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/profile.php?id=100088410660336" target="_blank" class="footer__icon">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/adeshayo-quadri-892083254/" target="_blank" class="footer__icon">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fquadrinlnl%3Ffbclid%3DIwAR0IqXPn7IQHp6A6EkRslpltSKSQ-PgTqPswM4G3ZUEVFk89ko69qLiiTXI&h=AT0jyL5rHwHWFRqpPnTL1RVXgLCoCzWrx8vW3hDjO08cZy0X24FLJJ7_gH5qguFk98_VqTR4neIGdMgO-bscUnCESlxKEGWZ3g2PElEmpuw-_6jdYDttGzmejJfDQGU6ce16bpi5ftmFmTCz" target="_blank" class="footer__icon">
+                <i class="bx bxl-instagram"></i>  
+            </a>
+        </div>
+        <p>&#169; 2023 copyright | All right reserved <br> <i>Noble Learner Never Lose</i></p>
+    </footer>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+<!-- 
+    - google search boxicons.com, inorder to use icon in our html page.
+    - click on usage and scroll down to Usage as a Font to copy this link
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    - google search scrollrevealjs.org inorder to apply smooth scroll onto the html page.
+    - click on Guide, go to Quick Start select then copy this HTML code
+    <script src="https://unpkg.com/scrollreveal"></script>
+    - pass it o
+ -->
